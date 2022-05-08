@@ -164,6 +164,14 @@ pub struct CommonOptions {
 }
 
 pub struct TransformOptions {
+  /// https://esbuild.github.io/api/#tsconfig-raw
+  tsconfig_raw: String,
   /// Documentation: https://esbuild.github.io/api/#loader
   loader: Option<Loader>,
+  /// https://esbuild.github.io/api/#sourcefile
+  sourcefile: String,
+  /// https://esbuild.github.io/api/#banner
+  banner: String,
+  /// https://esbuild.github.io/api/#footer
+  footer: String,
 }
