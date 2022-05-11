@@ -158,9 +158,9 @@ pub struct CommonOptions {
   /// https://esbuild.github.io/api/#color
   color: Option<bool>,
   /// https://esbuild.github.io/api/#log-level
-  logLevel: Option<LogLevel>,
+  log_level: Option<LogLevel>,
   /// https://esbuild.github.io/api/#log-limit
-  logLimit: i32,
+  log_limit: i32,
 }
 
 pub struct TransformOptions {
